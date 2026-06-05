@@ -1,4 +1,5 @@
 
+
 :root{--primary:#12345b;--gold:#d4af37;--light:#f7f9fc;--text:#222;}
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:Segoe UI,Arial,sans-serif;background:var(--light);color:var(--text)}
@@ -700,4 +701,59 @@ resize:none;
 .contact-section{
 grid-template-columns:1fr;
 }
+}
+@media (max-width: 768px){
+
+.navbar{
+flex-direction:column;
+height:auto;
+padding:15px;
+}
+
+.logo{
+justify-content:center;
+text-align:center;
+margin-bottom:15px;
+}
+
+.logo h2{
+font-size:16px;
+}
+
+.logo small{
+font-size:11px;
+}
+
+.navbar nav{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:10px;
+}
+
+.navbar nav a{
+margin:0;
+font-size:15px;
+}
+
+.call-btn{
+margin-top:15px;
+}
+
+.hero{
+grid-template-columns:1fr;
+text-align:center;
+padding:60px 5%;
+}
+
+.hero h1{
+font-size:52px;
+}
+
+.hero-right img{
+max-width:250px;
+margin:auto;
+display:block;
+}
+
 }
