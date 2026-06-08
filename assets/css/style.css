@@ -792,3 +792,19 @@ margin-top:10px;
 display:flex;
 }
 }
+@media(max-width:768px){
+
+.navbar nav.active{
+display:flex !important;
+flex-direction:column !important;
+width:100% !important;
+background:#fff;
+padding:15px 0;
+}
+
+.navbar nav.active a{
+display:block;
+padding:10px;
+}
+
+}
