@@ -799,4 +799,54 @@ display:block;
 .hero-right img{
     max-width:220px;
 }
+}@media (max-width: 768px) {
+
+.navbar{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:15px;
+}
+
+.logo{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.logo h2{
+    font-size:32px;
+}
+
+.navbar nav{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    text-align:center;
+    gap:10px;
+}
+
+.navbar nav a{
+    display:block;
+    padding:10px;
+    border-bottom:1px solid #eee;
+}
+
+.call-btn{
+    margin-top:15px;
+}
+
+.hero{
+    display:flex;
+    flex-direction:column;
+}
+
+.hero h1{
+    font-size:42px;
+}
+
+.hero-right img{
+    width:100%;
+    max-width:250px;
+    margin:auto;
+}
 }
