@@ -139,7 +139,18 @@
     </div>
 
 </footer>
+<script>
+document.addEventListener("DOMContentLoaded", function(){
 
+const menuBtn = document.querySelector(".menu-toggle");
+const nav = document.querySelector(".navbar nav");
+
+menuBtn.onclick = function(){
+    nav.classList.toggle("active");
+};
+
+});
+</script>
 </body>
 
 </footer></body></html>
