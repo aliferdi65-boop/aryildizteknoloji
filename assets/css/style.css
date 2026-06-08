@@ -727,6 +727,9 @@ resize:none;
     justify-content:center !important;
     gap:6px !important;
 }
+    .navbar nav.active{
+display:flex !important;
+}
 
 .navbar nav a{
     font-size:13px !important;
