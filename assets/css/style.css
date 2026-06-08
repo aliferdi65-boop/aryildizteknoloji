@@ -765,3 +765,30 @@ flex-wrap:wrap;
 margin-top:10px;
 }
 }
+.menu-toggle{
+display:none;
+background:none;
+border:none;
+font-size:32px;
+cursor:pointer;
+color:#12345b;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+display:block;
+}
+
+.navbar nav{
+display:none;
+width:100%;
+flex-direction:column;
+text-align:center;
+margin-top:10px;
+}
+
+.navbar nav.active{
+display:flex;
+}
+}
