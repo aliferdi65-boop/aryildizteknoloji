@@ -812,9 +812,10 @@ padding:10px;
 
 }
 .fade-up{
-opacity:0;
-transform:translateY(40px);
+opacity:1;
+transform:none;
 transition:all .8s ease;
+border:3px solid red;
 }
 
 .fade-up.show{
