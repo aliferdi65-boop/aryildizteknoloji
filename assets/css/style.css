@@ -897,3 +897,7 @@ transform:scale(1);
 }
 
 }
+.online-status{
+display:inline-block;
+margin-top:20px;
+}
