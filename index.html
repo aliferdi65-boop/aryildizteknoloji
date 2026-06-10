@@ -78,12 +78,12 @@ Aryıldız Teknoloji | Kamera, Alarm, Network ve Elektrik Sistemleri
 <section class="stats-section">
 
     <div class="stat-card">
-        <h2>76+</h2>
+       <h2 id="counter1">0</h2>
         <p>Tamamlanan İş</p>
     </div>
 
     <div class="stat-card">
-        <h2>19+</h2>
+     <h2 id="counter2">0</h2>
         <p>Kurumsal Müşteri</p>
     </div>
 
@@ -93,7 +93,7 @@ Aryıldız Teknoloji | Kamera, Alarm, Network ve Elektrik Sistemleri
     </div>
 
     <div class="stat-card">
-        <h2>5+</h2>
+      <h2 id="counter3">0</h2>
         <p>Hizmet Bölgesi</p>
     </div>
 
@@ -276,6 +276,33 @@ setInterval(() => {
 current = (current + 1) % services.length;
 textElement.textContent = services[current];
 }, 2500);
+</script>
+   <script>
+
+function animateCounter(id,target){
+
+let count = 0;
+
+const element = document.getElementById(id);
+
+const interval = setInterval(() => {
+
+count++;
+
+element.textContent = count + "+";
+
+if(count >= target){
+clearInterval(interval);
+}
+
+},10);
+
+}
+
+animateCounter("counter1",500);
+animateCounter("counter2",120);
+animateCounter("counter3",5);
+
 </script>
 </body>
 </html>
