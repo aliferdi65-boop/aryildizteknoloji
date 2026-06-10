@@ -870,34 +870,4 @@ transform:translateY(-8px);
 box-shadow:0 20px 40px rgba(0,0,0,.12);
 }
 
-.online-status{
-display:inline-block;
-margin-top:15px;
-padding:10px 20px;
-background:#e8fff0;
-color:#0a8f3d;
-font-weight:700;
-border-radius:30px;
-box-shadow:0 5px 15px rgba(0,0,0,.08);
-animation:pulse 2s infinite;
-}
 
-@keyframes pulse{
-
-0%{
-transform:scale(1);
-}
-
-50%{
-transform:scale(1.05);
-}
-
-100%{
-transform:scale(1);
-}
-
-}
-.online-status{
-display:inline-block;
-margin-top:20px;
-}
