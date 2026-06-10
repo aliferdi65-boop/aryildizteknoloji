@@ -240,6 +240,23 @@ document.querySelectorAll(".fade-up").forEach(el => {
 
 });
 </script>
+   <script>
+const services = [
+"📹 Kamera Sistemleri",
+"🚨 Alarm Sistemleri",
+"🌐 Network Çözümleri",
+"⚡ Elektrik Hizmetleri",
+"🔧 Teknik Servis"
+];
+
+let current = 0;
+const textElement = document.querySelector(".typing-text");
+
+setInterval(() => {
+current = (current + 1) % services.length;
+textElement.textContent = services[current];
+}, 2500);
+</script>
 </body>
 </html>
 
